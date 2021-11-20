@@ -1,6 +1,6 @@
 <template>
   <ion-app>
-    <SideMenu/>
+
     <ion-router-outlet :animated="true" id="sidemenu-content" />
   </ion-app>
 </template>
@@ -14,7 +14,7 @@ import {
   IonRouterOutlet
 } from '@ionic/vue';
 
-import SideMenu from '@/components/layout/SideMenu.vue';
+
 
 
 export default defineComponent({
@@ -22,7 +22,7 @@ export default defineComponent({
   components: {
     IonApp,
     IonRouterOutlet,
-    SideMenu,
+
   }
 });
 </script>

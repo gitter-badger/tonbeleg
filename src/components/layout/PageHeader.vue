@@ -1,4 +1,5 @@
 <template>
+  <SideMenu/>
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
@@ -17,14 +18,14 @@ import {
   IonHeader, IonToolbar, 
   IonButtons, IonMenuButton, IonTitle
 } from '@ionic/vue';
-
+import SideMenu from '@/components/layout/SideMenu.vue';
 
 export default defineComponent({
   name: "PageHeader",
 
   components: {
     IonHeader, IonToolbar, 
-    IonButtons, IonMenuButton, IonTitle
+    IonButtons, IonMenuButton, IonTitle, SideMenu
   },
 
   props: {
